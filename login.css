@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 20em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+input{
+    margin-bottom: 30px;
+    height: 30px;
+
+}
