@@ -5,13 +5,12 @@
 body{
     display: flex;
     justify-content: center;
-    margin-top: 20rem;
+    margin-top: 15rem;
     background-color:white;
 }
 .container{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
     min-width: 600px;
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -22,6 +21,12 @@ body{
 input{
     height: 50px;
     margin: 20px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+input::placeholder{
+    padding-left: 10px;
 }
 
 .button{
@@ -41,9 +46,21 @@ label{
     align-items: center;
     padding: 0;
     max-height: 30px;
+    font-size: 15px;
 }
 button{
     height: 50px;
     width: 250px;
     margin-bottom: 20px;
+    border-radius: 25px;
+    border: 0;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: rgb(244, 244, 244);
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
 }
